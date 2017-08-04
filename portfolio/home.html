@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Rebecca Ho</title>
+  <hgroup><link rel="stylesheet" type="text/css" href="styles.css"></hgroup>
+</head>
+<style>
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="home.html">Home</a>
+    <a href="aboutMe.html">About Me</a>
+    <a href="Reflection.html">Journal Review</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+
+
+</header>
+
+  <h1 align="center"> Rebecca Ho </h1>
+    <h4 align= 'center'> Home </h4>
+   <div class="w3-quarter">
+      <img src= "Ocean2.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="forest1.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="OceanOcean.jpg" style="width:100%" onclick="onClick(this)">
+    </div>
+
+    <div class="w3-quarter">
+      <img src="forest9.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+      <img src="rumi.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+      <img src="forest3.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+    </div>
+
+    <div class="w3-quarter">
+      <img src="Ocean8.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+      <img src="forest4.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="Ocean7.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+    </div>
+
+    <div class="w3-quarter">
+      <img src="forest5.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+      <img src="Ocean6.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="aadf.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+    </div>
+</body>
+</html>
